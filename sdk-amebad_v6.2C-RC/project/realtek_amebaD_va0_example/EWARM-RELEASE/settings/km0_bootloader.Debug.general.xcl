@@ -1,0 +1,13 @@
+"D:\IAR Systems\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\arm\bin\armjlink2.dll" 
+
+"E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\Exe\km0_image\km0_bootloader.axf" 
+
+--plugin="D:\IAR Systems\arm\bin\armbat.dll" 
+
+--flash_loader="E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\flashloader\FlashRTL8721D_lp.board" 
+
+
+
+

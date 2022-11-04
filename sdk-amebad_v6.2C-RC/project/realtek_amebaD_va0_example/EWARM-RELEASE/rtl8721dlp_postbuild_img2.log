@@ -1,0 +1,80 @@
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>cd /D "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE" 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set tooldir="E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set libdir="E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\bsp 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set iartooldir="D:\IAR Systems\arm" 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set km4_dir=Debug\Exe\km4_image 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set km0_dir=Debug\Exe\km0_image 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo input1="E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\Exe\km0_image"  1>tmp.txt 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo input2="E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"  1>>tmp.txt 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>del Debug\Exe\km0_image\km0_application.map Debug\Exe\km0_image\km0_application.asm Debug\Exe\km0_image\km0_application.dbg.axf  1>NULL 2>&1 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\nm Debug/Exe/km0_image/km0_application.axf | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\sort > Debug/Exe/km0_image/km0_application.map" 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\objdump -d Debug/Exe/km0_image/km0_application.axf > Debug/Exe/km0_image/km0_application.asm" 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>for /F "delims=" %i in ('cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep IMAGE2 Debug/Exe/km0_image/km0_application.map | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep Base | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\gawk '{print $1}'"') do set ram2_start=0x%i 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set ram2_start=0x00083000 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>for /F "delims=" %i in ('cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep IMAGE2 Debug/Exe/km0_image/km0_application.map | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep Limit | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\gawk '{print $1}'"') do set ram2_end=0x%i 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set ram2_end=0x0008492c 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>for /F "delims=" %i in ('cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep xip_image2 Debug/Exe/km0_image/km0_application.map | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep Base | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\gawk '{print $1}'"') do set xip_image2_start=0x%i 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set xip_image2_start=0x0c000020 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>for /F "delims=" %i in ('cmd /c ""E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep xip_image2 Debug/Exe/km0_image/km0_application.map | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\grep Limit | "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE"\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools\gawk '{print $1}'"') do set xip_image2_end=0x%i 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>set xip_image2_end=0x0c011b2c 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo ram2_start: 0x00083000  1>tmp.txt 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo ram2_end: 0x0008492c  1>>tmp.txt 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo xip_image2_start: 0x0c000020  1>>tmp.txt 
+
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE>echo xip_image2_end: 0x0c011b2c  1>>tmp.txt 
+is_law = 1
+start = 83000, end = 8492c, base = 80000
+Input file size: 6444
+copy size 6444
+pad.exe, img_len: 192c, pad_len: 0
+pad.exe, img_len: 11b0c, pad_len: 0
+start = 83000, end = 8492c, base = 80000
+Input file size: 6444
+copy size 6444
+start = c000020, end = c011b2c, base = c000000
+Input file size: 72460
+copy size 72460
+Debug\Exe\km0_image\xip_image2.p.bin
+Debug\Exe\km0_image\ram_2.p.bin
+已复制         1 个文件。
+pad.exe, img_len: 13478, pad_len: b88
+E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\..\..\..\component\soc\realtek\amebad\misc\bsp\image\km4_image2_all.bin
+复制了 1 个文件
+Debug\Exe\km0_image\km0_image2_all.bin
+Debug\Exe\km4_image\km4_image2_all.bin
+已复制         1 个文件。
+文件无法自身复制。
+已复制         0 个文件。
+已复制         1 个文件。
+
+   IAR ELF Linker V8.30.1.114/W32 for ARM
+   Copyright 2007-2018 IAR Systems AB.
+
+  524 288 bytes of readonly  data memory
+
+Errors: none
+Warnings: none
+
+Link time:   0.11 (CPU)   0.11 (elapsed)

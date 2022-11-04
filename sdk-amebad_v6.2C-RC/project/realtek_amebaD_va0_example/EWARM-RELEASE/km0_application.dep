@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1248980878</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_pll.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_flashcfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_pinmap.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_wificfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_pinmapcfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_sleepcfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\bsp\lib\common\IAR\lib_pmc_lp.a</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_flash_ram.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_app_start.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_cpft.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_intfcfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_simulation.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_startup.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\bsp\lib\common\IAR\lib_wifi_fw.a</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_LP\port.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_qdec.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_system.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_LP\portasm.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_flashclk.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\croutine.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_clk.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_ipc_api.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_sgpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\event_groups.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_km4.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_ipccfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_keyscan.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_captouch.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_comparator.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\touch_key\touch_key.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_efuse.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\monitor_lp.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_bor.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\rtl_trace.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\shell_ram.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_ipc_api.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_flash_ram.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_ipccfg.o</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\MemMang\heap_5.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\queue.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_backtrace_ext.c</file>
+            <file>$PROJ_DIR$\..\src\src_lp\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\timers.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_pll.o</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\list.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_heap5_config.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_keyscan.o</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_service.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\shell_ram.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721dhp_sd.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string\va_list.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\os_dep\include\osdep_service.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ram_libc.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_ipccfg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_bor.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_km4.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\freertos_heap5_config.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_uart.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\api\platform\dlist.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_clk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_km4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_ipc_api.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\portasm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl_trace.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_bor.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_pll.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_qdec.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_wificfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_flashcfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\monitor_lp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_flash_ram.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_wdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_flashclk.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_ipccfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_pinmapcfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_keyscan.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\shell_ram.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_cpft.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\touch_key.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_comparator.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_efuse.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_sgpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_app_start.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_intfcfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_pinmap.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_tim.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_captouch.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\timers.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\freertos_backtrace_ext.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\list.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\freertos_heap5_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\croutine.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_pinmapcfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\queue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_km4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_cpft.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_flashcfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_pinmap.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_startup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_flashclk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_clk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_simulation.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_intfcfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_sleepcfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_system.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_wdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_wificfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_app_start.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\heap_5.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\event_groups.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\stream_buffer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\tasks.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_sgpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\touch_key.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\monitor_lp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl_trace.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\shell_ram.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_captouch.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_comparator.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_bor.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_efuse.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721d_qdec.o</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\FreeRTOS.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\portable.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\projdefs.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_LP\portmacro.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\mpu_wrappers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\task.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\api\platform\platform_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\port.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\api\platform\platform_stdlib_rtl8721d.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\freertos_heap5_config.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string\diag.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\main.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\include\rtl_trace.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\freertos_backtrace_ext.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\event_groups.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\queue.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\km0_image\km0_application.axf</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\heap_5.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\stream_buffer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\km0_application.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\basic_types.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string\memproc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string\strproc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\tasks.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\section_config.h</file>
+            <file>$PROJ_DIR$\..\inc\inc_lp\platform_opts.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_sys_on.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_sleepcfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\croutine.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_simulation.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\list.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_startup.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\rtl8721dlp_system.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\km0_application\timers.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\hal_platform.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_loguart.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\include\monitor_rom.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_wl_on.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_backup_reg.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721dhp_sysreg.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_otf.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_pinmux.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_soc_ps.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\include\shell.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_pinmap.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ipc_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_crypto_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string\rand.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_flashclk.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ipc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_crypto.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\xmodem\xmodem_update_rom.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\ameba_soc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_vector.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_syscfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_pmc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_simulation.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721dlp_km4.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_peri_on.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_captouch.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721dlp_sysreg.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_bor.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_clk.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_boot.h</file>
+            <file>$PROJ_DIR$\..\inc\inc_lp\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\..\inc\inc_lp\platform_autoconf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_ipc_api.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\event_groups.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\timers.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\queue.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\event_groups.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_captouch.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_qdec.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\timers.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_clk.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\heap_5.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_simulation.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_cpft.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_rtc.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_sleepcfg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\freertos_backtrace_ext.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_system.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_wdg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_adc.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_keyscan.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_intfcfg.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\touch_key\touch_key.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_startup.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_flash_ram.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_sgpio.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_flashcfg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\touch_key.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\list.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_cache.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_efuse.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_sdioh.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_sgpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_wdg.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_usi.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_lcdc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_psram.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_trustzone.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\mpu.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_i2s.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_keyscan.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_usi_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\core_cache.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_usi_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_crc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_audio.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_qdec.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ir.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\mpu_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_gdma.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ssi.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_comparator.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_sdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_usi_ssi.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\x509_crl.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\core_armv8mbl.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\cipher.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\ssl_ram_map\rom\rom_ssl_ram_map.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\config_rsa.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\asn1.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\ecp.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\rsa.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\ssl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\md.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\platform.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\bignum.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\x509_crt.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\config.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_pmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_backtrace_ext.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\semphr.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721dlp_rcc.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\check_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_ota.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\net_sockets.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\ssl_ciphersuites.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\pk.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include\mbedtls\x509.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\rtl8721d_freertos_pmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_heap5_config.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_pll.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rtl8721d_system.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\stack_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\list.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_comparator.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_pinmapcfg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\port.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_app_start.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\tasks.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\croutine.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\croutine.s</file>
+            <file>$PROJ_DIR$\rtl8721dlp_rom_symbol.icf</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\km0_application.map</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\rtl8721dlp_image2.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\rtl8721d_memory_layout_is.icf</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl_trace.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\main.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_flashclk.s</file>
+            <file>$PROJ_DIR$\..\inc\inc_lp\main.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\include\autoconf.h</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_efuse.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_tim.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\monitor_lp.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_wificfg.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\stream_buffer.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721d_i2c.s</file>
+            <file>$PROJ_DIR$\Debug\List\km0_application\rtl8721dlp_pinmap.s</file>
+            <file>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include\rom_map.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 167 328</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_pll.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 314 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201 302 262 149 208 253 260 154 211 210 206 279 282 171 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_wdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267 220 305 149 175 217 275 144 260 154 141 189 192 285 269 58 311 307 303 180 202 218 215 278 280 271 252 142 143 163 171 308 159 283 297 301 145 174 214 312 304 178 188 161 209 205 194 204 199 259 266 261 255 263 264 257 258 147 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 213 251 149 191 281 260 154 313 190 195 272 256 142 171 311 212 155 196 216 198 265 276 273 268 148 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_flashcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198 155 273 149 196 265 260 154 212 171 216 276 268 148 311 313 213 190 191 195 272 281 256 251 142 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_pinmap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 345 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253 208 149 302 201 262 260 154 211 210 206 279 282 171 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215 303 271 149 202 278 143 260 154 307 180 218 280 252 142 163 311 175 141 220 189 217 192 305 285 275 269 267 58 144 171 308 159 283 297 301 145 174 214 312 304 178 188 161 209 205 194 204 199 259 266 261 255 263 264 257 258 147 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_wificfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 342 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208 253 149 302 201 262 260 154 211 210 206 279 282 171 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_pinmapcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188 258 149 312 194 255 260 154 174 304 209 199 266 264 147 311 214 178 161 205 204 259 261 263 257 220 171 308 159 283 297 301 145 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_sleepcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199 304 264 149 174 209 266 147 154 260 312 188 194 255 258 311 214 178 161 205 204 259 261 263 257 220 171 308 159 283 297 301 145 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_flash_ram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204 263 149 161 259 260 154 214 178 205 261 257 220 311 174 312 304 188 209 194 199 266 255 264 258 147 171 308 159 283 297 301 145 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 340 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257 220 178 149 214 205 261 260 154 161 204 259 263 311 174 312 304 188 209 194 199 266 255 264 258 147 171 308 159 283 297 301 145 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_app_start.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 323 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284 315</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 302 262 179 309 201 208 253 154 211 210 206 279 282 171 148 149 173 197 200 193 274 277 254 270 143 146 296 59 301 297 292 152 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 142 293 295 294 221 299 141 318 315 174 175 214 307 312 303 304 220 178 180 188 189 161 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 298 288 222 61 300 310 283 150 153 207 203 260 308 287 156 158 176 159 224 172 306 289 291 286 311 290 219 145 151 284</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_cpft.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 274 197 149 193 254 260 154 179 173 200 277 270 143 146 171 311 211 302 208 210 201 206 279 262 282 253 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dlp_intfcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208 253 149 302 201 262 260 154 211 210 206 279 282 171 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_simulation.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199 304 264 149 174 209 266 147 154 260 312 188 194 255 258 311 214 178 161 205 204 259 261 263 257 220 171 308 159 283 297 301 145 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_startup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_LP\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 322 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 142 146 147 144 317 141 148 143 154 149 219 220 150 145 151 152 153 155 318 161 171 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161 153 318 163 149 142 143 155 296 150 141 317 154 152 220 319 146 147 144 148 219 145 151 171</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_qdec.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217 144 175 275 149 220 305 267 260 154 141 189 192 285 269 58 311 307 303 180 202 218 215 278 280 271 252 142 143 163 171 308 159 283 297 301 145 174 214 312 304 178 188 161 209 205 194 204 199 259 266 261 255 263 264 257 258 147 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171 149 143 142 146 147 144 148 154 207 174 220 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196 265 149 155 198 273 260 154 148 212 171 216 276 268 311 142 313 213 190 191 195 272 281 256 251 220 308 159 283 297 301 145 143 146 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 163 207 287 224 161 306 291 286 299 151 147 144 174 175 214 307 312 141 303 304 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_LP\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 219 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_flashclk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 336 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 272 142 190 171 149 313 195 256 260 154 213 191 281 251 311 212 155 196 216 198 265 276 273 268 148 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 326 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 148 143 142 146 147 144 154 149 219 220 150 145 151 152 153 155 318 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 153 318 146 325 143 142 155 149 154 152 141 148 219 145 147 144 220 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254 193 149 197 274 260 154 179 173 200 277 270 143 146 171 311 211 302 208 210 201 206 279 262 282 253 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_ipc_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216 212 276 148 149 171 268 260 154 155 196 198 265 273 311 313 213 190 191 195 272 281 256 251 142 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_sgpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279 211 210 171 149 206 282 260 154 302 208 201 262 253 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 141 148 149 219 220 150 145 151 152 153 155 318 226 225</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154 142 219 152 226 146 141 143 148 145 220 318 155 225 224 147 144 149 150 153 222 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_km4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279 211 210 171 143 141 206 282 221 301 297 302 208 201 262 253 149 292 179 173 197 200 193 274 277 254 270 146 142 288 175 309 148 150 284 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 205 203 222 61 299 174 214 307 312 303 304 220 178 180 188 189 161 202 209 217 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 154 163 207 260 308 59 300 310 283 151 293 295 296 298 294 287 156 158 176 159 224 172 306 289 291 286 311 290 219 145 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 344 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171 190 272 142 149 313 195 256 260 154 213 191 281 251 311 212 155 196 216 198 265 276 273 268 148 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_ipccfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208 253 149 302 201 262 260 154 211 210 206 279 282 171 311 179 173 197 200 193 274 277 254 270 143 146 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_keyscan.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265 196 149 155 198 273 260 154 212 171 216 276 268 148 311 313 213 190 191 195 272 281 256 251 142 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 263 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 241 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254 193 149 197 274 260 154 179 173 200 277 270 143 146 171 311 211 302 208 210 201 206 279 262 282 253 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_captouch.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191 281 149 213 251 260 154 313 190 195 272 256 142 171 311 212 155 196 216 198 265 276 273 268 148 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 214 174 175 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_comparator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265 196 149 155 198 273 260 154 212 171 216 276 268 148 311 313 213 190 191 195 272 281 256 251 142 308 159 283 297 301 145 211 179 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 143 146 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\touch_key\touch_key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 301 188 258 203 220 312 194 255 158 172 284 174 304 209 199 266 264 147 154 311 148 214 178 161 205 204 259 261 263 257 149 256 156 292 297 290 175 307 141 303 180 189 202 217 218 192 215 305 285 278 275 280 269 271 267 252 58 142 144 143 163 221 176 289 294 299 207 219 244 211 212 179 302 155 313 171 173 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 282 268 270 251 253 146 260 308 287 159 224 306 291 283 286 145 151 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_efuse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 339 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 274 197 149 193 254 260 154 179 173 200 277 270 143 146 171 311 211 302 208 210 201 206 279 262 282 253 308 159 283 297 301 145 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 256 268 251 148 142 207 287 224 161 306 291 286 299 151 174 175 214 307 312 141 303 304 220 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\monitor_lp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 341 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284 347</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208 253 293 302 201 262 211 210 206 279 282 171 301 141 179 173 197 200 193 274 277 254 270 143 146 295 256 294 221 299 318 347 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 268 251 148 142 296 154 59 309 149 297 292 152 174 175 214 307 312 303 304 220 178 180 188 189 161 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 298 288 222 61 300 310 283 150 153 207 203 260 308 287 156 158 176 159 224 172 306 289 291 286 311 290 219 145 151 284</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_bor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189 58 285 149 141 192 269 260 154 175 220 217 305 275 267 144 311 307 303 180 202 218 215 278 280 271 252 142 143 163 171 308 159 283 297 301 145 174 214 312 304 178 188 161 209 205 194 204 199 259 266 261 255 263 264 257 258 147 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\rtl_trace.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 307 280 149 180 252 142 163 260 154 303 202 215 278 271 143 311 175 141 220 189 217 192 305 285 275 269 267 58 144 171 308 159 283 297 301 145 174 214 312 304 178 188 161 209 205 194 204 199 259 266 261 255 263 264 257 258 147 207 287 173 224 306 291 148 286 299 151 155 211 212 179 302 313 213 208 196 197 190 210 216 200 191 201 198 193 195 206 265 274 272 279 276 277 281 262 273 254 256 282 268 270 251 253 146 203 221 156 158 176 172 289 294 292 290 219 284 293 295 296 298 288 222 61 59 309 300 310 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\shell_ram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284 60 56 67 225 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208 253 171 153 302 201 262 292 207 149 318 211 210 206 279 282 256 154 297 290 179 173 197 200 193 274 277 254 270 143 146 159 301 311 148 56 225 221 212 155 313 213 196 190 216 191 198 195 265 272 276 281 273 268 251 142 220 298 287 224 161 306 299 145 60 175 174 214 307 312 141 303 304 178 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 293 295 296 294 156 158 176 172 289 291 283 286 219 152 284 226 163 203 260 308 288 222 61 59 309 300 310 150 151 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\MemMang\heap_5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 141 148 149 219 220 150 145 151 152 153 155 318</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 224 151 147 150 143 141 142 144 149 154 155 146 148 219 145 220 222 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 159 172 141 148 149 219 220 150 145 151 152 153 155 318 284 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 153 155 143 149 144 219 159 141 284 325 224 147 148 145 220 152 318 222 154 146 172 150 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_backtrace_ext.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 148 143 142 146 147 144 154 149 219 220 150 145 151 152 153 155 318</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 149 142 150 144 155 148 219 145 147 151 141 154 146 220 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\src_lp\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 335 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 174 220 171 149 143 142 146 147 144 148 154 178 173 180 213 188 208 189 196 161 163 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 211 175 212 214 179 307 301 287 156 158 176 222 224 159 172 61 59 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 141 219 150 145 151 152 153 155 318 303 313 304 284 337 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 313 256 292 195 301 149 190 272 142 171 143 213 191 281 251 296 59 297 152 212 155 196 216 198 265 276 273 268 148 179 154 309 211 302 173 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 146 293 295 294 221 299 141 318 338 337 174 175 214 307 312 303 304 220 178 180 188 189 161 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 147 144 163 298 288 222 61 300 310 283 150 153 207 203 260 308 287 156 158 176 159 224 172 306 289 291 286 311 290 219 145 151 284</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 343 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149 143 142 146 147 144 159 154 172 141 148 219 220 150 145 151 152 153 155 318 346</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 154 155 146 150 143 149 153 159 141 346 147 144 172 148 219 145 220 152 318 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 141 148 149 219 220 150 145 151 152 153 155 318 284 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 149 142 284 144 152 141 224 147 150 220 318 155 226 154 146 148 219 145 153 222 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 250 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 141 148 149 219 220 150 145 151 152 153 318</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 219 143 318 154 146 149 153 141 148 145 220 152 222 224 147 144 150 151</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_heap5_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171 149 143 142 146 147 144 148 154 141 219 220 150 145 151 152 153 155 318 179 156 158 176 222 224 159 172 161 163 175 173 174 178 180 213 188 208 189 196 197 202 190 209 210 217 216 205 200 218 191 194 201 203 192 198 204 193 215 195 199 206 207 211 212 214 307 301 287 288 306 289 298 308 294 299 291 309 310 297 292 286 300 311 290 283 312 302 303 313 304 284 305 285 293 295 296 265 259 274 260 278 272 266 279 275 276 261 277 280 281 255 262 269 273 263 254 271 256 264 282 267 268 257 270 252 251 258 253 58 61 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273 142 176 154 198 307 219 196 265 299 174 171 216 276 268 156 143 146 151 158 161 220 213 190 191 195 272 281 256 251 303 294 306 149 155 178 148 145 159 173 163 208 197 210 200 201 193 206 274 279 277 262 254 282 270 253 175 141 301 292 297 311 290 207 179 147 144 150 152 153 318 222 221 61 224 172 180 188 189 202 209 217 205 218 194 192 204 215 199 305 285 259 278 266 275 261 280 255 269 263 271 264 267 257 252 258 58 214 312 304 298 287 289 291 283 286 260 59 203 211 212 302 313 308 288 309 300 310 284 293 295 296</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 324 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 143 142 146 147 144 154 224 159 172 141 148 149 219 220 150 145 151 152 153 155 318 226 316 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176 155 143 151 316 142 219 159 141 226 154 146 148 145 149 220 222 224 147 144 172 150 152 153 318</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\km0_image\km0_application.axf</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 328</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 331 327 333 105 127 101 103 126 9 17 102 104 132 122 71 107 136 138 135 137 139 43 42 41 44 54 51 140 108 130 109 115 123 124 125 117 111 112 116 119 110 113 106 118 120 114 121 133 134 128 129 100 131 329 332 330</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
