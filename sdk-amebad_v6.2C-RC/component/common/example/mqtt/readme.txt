@@ -46,8 +46,8 @@ Setup Guide
 	    }
 	4) Add MQTT related files to IAR project.
 	5) Add include directories to project.
-	    $PROJ_DIR$\..\..\..\component\common\application\mqtt\MQTTClient
-	    $PROJ_DIR$\..\..\..\component\common\application\mqtt\MQTTPacket
+	    $PROJ_DIR$\..\..\component\common\application\mqtt\MQTTClient
+	    $PROJ_DIR$\..\..\component\common\application\mqtt\MQTTPacket
 	
 Result description
 ~~~~~~~~~~~~~~~~~~
@@ -66,7 +66,7 @@ Result description
 	    1) Lwip_select is used to check data arrival and connection exception. Message is read only if
 	       tcp data has arrived. If exception fd is set, MQTT will restart.
 	    2) SO_KEEPALIVE and TCP_KEEPIDLE are set to clear TCP buffer when network is bad. For if
-               TCP buffer is full and can¡¦t allocate more memory, the situation will last for about 20
+               TCP buffer is full and canï¿½ï¿½t allocate more memory, the situation will last for about 20
 	       minutes until MAX data retries reached, and then MQTT will not restart successfully during
 	       this time for allocating memory failed.
 

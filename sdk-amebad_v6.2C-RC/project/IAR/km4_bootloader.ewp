@@ -346,76 +346,76 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\..\..\component\os</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_HP\non_secure\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\device</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\rom_map_hp</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\xmodem</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\os_dep\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\os_dep\..\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\platform</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\wifi</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\network</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\network\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\test</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\example</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\utilities</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\si</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\haac</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\hmp3</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\fdk-aac</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\libav</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\fdk-aac\libSYS\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hci</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\osdep</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal\phydm</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal\rtl8721d</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\wlan_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\lwip</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\netif</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek\freertos</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\at_cmd</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\wifi\rtw_wpa_supplicant\src</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\os_dep\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\inic\rtl8721d</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\polarssl-1.3.8\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\ssl_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8721d\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8721d\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\external\mbedtls-port</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\WACServer\External\Curve25519</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\WACServer\External\GladmanAES</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\chacha</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\poly1305</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\ed25519</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\ed25519\core</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\sha512</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\file_system\fatfs\r0.10c\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\file_system\fatfs</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\framework\core</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\framework\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\duerapp\include</state>
+                    <state>$PROJ_DIR$\..\..\component\os</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos\freertos_v10.2.0\Source\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_HP\non_secure\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\cmsis\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\cmsis\device</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\rom_map_hp</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\app\monitor\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\app\xmodem</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\string</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\os_dep\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\os_dep\..\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\string</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\platform</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\wifi</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\network</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\network\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio</state>
+                    <state>$PROJ_DIR$\..\..\component\common\test</state>
+                    <state>$PROJ_DIR$\..\..\component\common\example</state>
+                    <state>$PROJ_DIR$\..\..\component\common\utilities</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\si</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\haac</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\hmp3</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\fdk-aac</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\libav</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\fdk-aac\libSYS\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hci</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\osdep</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal\phydm</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal\rtl8721d</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\wlan_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\lwip</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\netif</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek\freertos</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\at_cmd</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\wifi\rtw_wpa_supplicant\src</state>
+                    <state>$PROJ_DIR$\..\..\component\os\os_dep\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\inic\rtl8721d</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\polarssl-1.3.8\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\ssl_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\mbedtls-2.4.0\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\mbedtls_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\mbed\targets\hal\rtl8721d\</state>
+                    <state>$PROJ_DIR$\..\..\component\common\mbed\targets\hal\rtl8721d\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\external\mbedtls-port</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\WACServer\External\Curve25519</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\WACServer\External\GladmanAES</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\chacha</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\poly1305</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\ed25519</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\ed25519\core</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\sha512</state>
+                    <state>$PROJ_DIR$\..\..\component\common\file_system\fatfs\r0.10c\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\file_system\fatfs</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\framework\core</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\framework\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\duerapp\include</state>
                     <state>$PROJ_DIR$\..\inc\inc_hp</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\amazon\amazon-freertos\lib\include\private</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\amazon\amazon-freertos\lib\include\private</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -745,8 +745,8 @@
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild>CSCRIPT  "$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721d_prebuild.vbs" "$PROJ_DIR$" "$PROJ_DIR$\..\inc\inc_hp"</prebuild>
-                <postbuild>CSCRIPT  "$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721dhp_postbuild_img1.vbs" "$TARGET_DIR$" "$PROJ_DIR$" "$TOOLKIT_DIR$"</postbuild>
+                <prebuild>CSCRIPT  "$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721d_prebuild.vbs" "$PROJ_DIR$" "$PROJ_DIR$\..\inc\inc_hp"</prebuild>
+                <postbuild>CSCRIPT  "$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721dhp_postbuild_img1.vbs" "$TARGET_DIR$" "$PROJ_DIR$" "$TOOLKIT_DIR$"</postbuild>
             </data>
         </settings>
         <settings>
@@ -1448,76 +1448,76 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\..\..\component\os</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_HP\non_secure\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\cmsis\device</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\rom_map_hp</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\xmodem</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\os_dep\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\os_dep\..\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\swlib\string</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\platform</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\wifi</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\network</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\network\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\test</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\example</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\utilities</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\si</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\haac</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\hmp3</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\fdk-aac</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\libav</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\audio\fdk-aac\libSYS\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hci</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\osdep</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal\phydm</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\src\hal\rtl8721d</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\wlan\realtek\wlan_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\lwip</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\netif</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek\freertos</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\at_cmd</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\api\wifi\rtw_wpa_supplicant\src</state>
-                    <state>$PROJ_DIR$\..\..\..\component\os\os_dep\include\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\drivers\inic\rtl8721d</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\polarssl-1.3.8\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\ssl_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls-2.4.0\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\network\ssl\mbedtls_ram_map\rom</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8721d\</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8721d\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\external\mbedtls-port</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\WACServer\External\Curve25519</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\WACServer\External\GladmanAES</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\chacha</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\poly1305</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\ed25519</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\ed25519\core</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\apple\homekit\crypto\sha512</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\file_system\fatfs\r0.10c\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\file_system\fatfs</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\framework\core</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\libduer-device\framework\include</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\baidu\duerapp\include</state>
+                    <state>$PROJ_DIR$\..\..\component\os</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos\freertos_v10.2.0\Source\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\os\freertos\freertos_v10.2.0\Source\portable\IAR\RTL8721D_HP\non_secure\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\cmsis\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\cmsis\device</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\rom_map_hp</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\app\monitor\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\app\xmodem</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\include</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\string</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\os_dep\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\os_dep\..\</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\swlib\string</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\platform</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\wifi</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\network</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\network\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio</state>
+                    <state>$PROJ_DIR$\..\..\component\common\test</state>
+                    <state>$PROJ_DIR$\..\..\component\common\example</state>
+                    <state>$PROJ_DIR$\..\..\component\common\utilities</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\si</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\haac</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\hmp3</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\fdk-aac</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\libav</state>
+                    <state>$PROJ_DIR$\..\..\component\common\audio\fdk-aac\libSYS\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hci</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\osdep</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal\phydm</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\src\hal\rtl8721d</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\wlan\realtek\wlan_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\lwip</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\src\include\netif</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\lwip\lwip_v2.0.2\port\realtek\freertos</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\at_cmd</state>
+                    <state>$PROJ_DIR$\..\..\component\common\api\wifi\rtw_wpa_supplicant\src</state>
+                    <state>$PROJ_DIR$\..\..\component\os\os_dep\include\</state>
+                    <state>$PROJ_DIR$\..\..\component\common\drivers\inic\rtl8721d</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\polarssl-1.3.8\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\ssl_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\mbedtls-2.4.0\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\network\ssl\mbedtls_ram_map\rom</state>
+                    <state>$PROJ_DIR$\..\..\component\common\mbed\targets\hal\rtl8721d\</state>
+                    <state>$PROJ_DIR$\..\..\component\common\mbed\targets\hal\rtl8721d\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\external\mbedtls-port</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\WACServer\External\Curve25519</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\WACServer\External\GladmanAES</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\chacha</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\poly1305</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\ed25519</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\ed25519\core</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\apple\homekit\crypto\sha512</state>
+                    <state>$PROJ_DIR$\..\..\component\common\file_system\fatfs\r0.10c\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\file_system\fatfs</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\framework\core</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\libduer-device\framework\include</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\baidu\duerapp\include</state>
                     <state>$PROJ_DIR$\..\inc\inc_hp</state>
-                    <state>$PROJ_DIR$\..\..\..\component\common\application\amazon\amazon-freertos\lib\include\private</state>
+                    <state>$PROJ_DIR$\..\..\component\common\application\amazon\amazon-freertos\lib\include\private</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1847,8 +1847,8 @@
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild>CSCRIPT  "$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721d_prebuild.vbs" "$PROJ_DIR$" "$PROJ_DIR$\..\inc\inc_hp"</prebuild>
-                <postbuild>CSCRIPT  "$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721dhp_postbuild_img1.vbs" "$TARGET_DIR$" "$PROJ_DIR$" "$TOOLKIT_DIR$"</postbuild>
+                <prebuild>CSCRIPT  "$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721d_prebuild.vbs" "$PROJ_DIR$" "$PROJ_DIR$\..\inc\inc_hp"</prebuild>
+                <postbuild>CSCRIPT  "$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\rtl8721dhp_postbuild_img1.vbs" "$TARGET_DIR$" "$PROJ_DIR$" "$TOOLKIT_DIR$"</postbuild>
             </data>
         </settings>
         <settings>
@@ -2208,19 +2208,19 @@
     <group>
         <name>cmsis</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\bootloader\boot_flash_hp.c</name>
+            <name>$PROJ_DIR$\..\..\component\soc\realtek\amebad\bootloader\boot_flash_hp.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\bootloader\boot_ram_hp.c</name>
+            <name>$PROJ_DIR$\..\..\component\soc\realtek\amebad\bootloader\boot_ram_hp.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\bootloader\boot_trustzone_hp.c</name>
+            <name>$PROJ_DIR$\..\..\component\soc\realtek\amebad\bootloader\boot_trustzone_hp.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_bootcfg.c</name>
+            <name>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_bootcfg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dhp_boot_trustzonecfg.c</name>
+            <name>$PROJ_DIR$\..\..\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dhp_boot_trustzonecfg.c</name>
         </file>
     </group>
 </project>

@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\8721dlp.ddf</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\8721dlp.ddf</state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
@@ -112,7 +112,7 @@
                 </option>
                 <option>
                     <name>FlashLoadersV3</name>
-                    <state>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\flashloader\FlashRTL8721D_lp.board</state>
+                    <state>$PROJ_DIR$\..\..\component\soc\realtek\amebad\misc\iar_utility\common\flashloader\FlashRTL8721D_lp.board</state>
                 </option>
                 <option>
                     <name>OCImagesSuppressCheck1</name>

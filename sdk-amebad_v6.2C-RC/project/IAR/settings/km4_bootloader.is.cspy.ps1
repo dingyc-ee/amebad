@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.general.xcl" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.driver.xcl" 
+& "D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km4_bootloader.is.general.xcl" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km4_bootloader.is.driver.xcl" 
 }
 else
 {
-& "D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.driver.xcl" 
+& "D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km4_bootloader.is.general.xcl" --debug_file=$debugfile --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km4_bootloader.is.driver.xcl" 
 }

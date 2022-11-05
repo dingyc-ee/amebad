@@ -72,7 +72,7 @@ Parameter Setting and Configuration
           (a) For IAR project, include example_coap.c under example group
           (b) For GCC project, add  CSRC += $(DIR)/coap/example_coap.c  to "Makefile"
         2) Add include directories to project
-          (a) For IAR project, $PROJ_DIR$\..\..\..\component\common\network\coap\include
+          (a) For IAR project, $PROJ_DIR$\..\..\component\common\network\coap\include
           (b) For GCC project, IFLAGS  += -I$(BASEDIR)/component/common/network/coap/include
 
 

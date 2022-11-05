@@ -27,13 +27,13 @@ Setup Guide
 		
 		2)Add example source file to project
         (a) For IAR project, add http2_client example to group <example> 
-            $PROJ_DIR$\..\..\..\component\common\example\http2_client\example_http2_client.c
+            $PROJ_DIR$\..\..\component\common\example\http2_client\example_http2_client.c
         (b) For GCC project, add http2_client example to utilities_example Makefile
             CSRC += $(DIR)/http2_client\example_http2_client.c
 		
 		3) Add include directories to project
 		(a) For IAR project
-			add $PROJ_DIR$\..\..\..\component/common/network/http2/nghttp2-1.31.0/includes
+			add $PROJ_DIR$\..\..\component/common/network/http2/nghttp2-1.31.0/includes
 		(b) For GCC project
 			IFLAGS += -I$(BASEDIR)/component/common/network/http2/nghttp2-1.31.0/includes
 		

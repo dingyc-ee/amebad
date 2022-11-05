@@ -1,7 +1,7 @@
 cd /D %2
 
-set tooldir=%2\..\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools
-set libdir=%2\..\..\..\component\soc\realtek\amebad\misc\bsp
+set tooldir=%2\..\..\component\soc\realtek\amebad\misc\iar_utility\common\tools
+set libdir=%2\..\..\component\soc\realtek\amebad\misc\bsp
 set iartooldir=%3
 
 set km0_dir=Debug\Exe\km0_image

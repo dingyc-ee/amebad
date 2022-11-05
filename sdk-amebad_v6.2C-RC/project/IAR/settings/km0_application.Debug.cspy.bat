@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.general.xcl" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.driver.xcl" 
+"D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km0_application.Debug.general.xcl" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km0_application.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\realtek_amebaD_va0_example\EWARM-RELEASE\settings\km0_application.Debug.driver.xcl" 
+"D:\IAR Systems\common\bin\cspybat" -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km0_application.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\amebad\sdk-amebad_v6.2C-RC\project\IAR\settings\km0_application.Debug.driver.xcl" 
 
 @echo off 
 :end
