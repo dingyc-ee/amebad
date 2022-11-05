@@ -15,5 +15,6 @@ del /s /q *.dbgdt
 
 cd %~dp0
 rd /s /q Debug
+rd /s /q Release
 
 pause

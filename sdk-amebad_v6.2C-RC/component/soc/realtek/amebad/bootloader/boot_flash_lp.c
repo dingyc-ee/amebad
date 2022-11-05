@@ -158,7 +158,6 @@ static u8 BOOT_FLASH_OTA_Check(u8 ota_idx)
 				"Location: project/realtek_amebaD_cm4_gcc_verification/asdk/image\n\n\n");
 			DelayMs(2000);
 		}
-		return res;
 	}
 	
 	/* Check hash/sum if needed */

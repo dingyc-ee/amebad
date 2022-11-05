@@ -16,7 +16,6 @@ SECTION(".data") u8* __bss_start__ = 0;
 SECTION(".data") u8* __bss_end__ = 0;
 #endif
 
-static u32 Cutversion;
 static u32 ICversion;
 
 extern int main(void);
@@ -414,6 +413,7 @@ void app_start(void)
 	if(SOCPS_DsleepWakeStatusGet() == FALSE) {
 		OSC131K_Calibration(30000); /* PPM=30000=3% *//* 7.5ms */
 
+		extern u32 SDM32K_Read(u32 Address);
 		/* fix OTA upgarte fail after version 6.2, because 32k is not enabled*/
 		u32 Temp = SDM32K_Read(REG_SDM_CTRL0);
 		if (!(Temp & BIT_AON_SDM_ALWAYS_CAL_EN)) {
