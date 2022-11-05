@@ -2111,24 +2111,6 @@
         </settings>
     </configuration>
     <group>
-        <name>app</name>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\touch_key\touch_key.c</name>
-        </file>
-    </group>
-    <group>
-        <name>console</name>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\monitor_lp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\rtl_trace.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\app\monitor\ram\shell_ram.c</name>
-        </file>
-    </group>
-    <group>
         <name>fwlib</name>
         <file>
             <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\fwlib\ram_common\rtl8721d_adc.c</name>
@@ -2232,9 +2214,6 @@
         <file>
             <name>$PROJ_DIR$\..\..\..\component\soc\realtek\amebad\misc\bsp\lib\common\IAR\lib_wifi_fw.a</name>
         </file>
-    </group>
-    <group>
-        <name>misc</name>
     </group>
     <group>
         <name>os</name>

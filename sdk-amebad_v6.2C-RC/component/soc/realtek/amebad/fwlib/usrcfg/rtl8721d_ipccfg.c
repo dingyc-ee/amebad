@@ -20,7 +20,7 @@
 const IPC_INIT_TABLE  ipc_init_config[] =
 {
 	//USER_MSG_TYPE		IRQFUNC								IRQDATA
-	{IPC_USER_DATA,		shell_switch_ipc_int,		(VOID*) NULL},//channel 0: IPC_INT_CHAN_SHELL_SWITCH
+	{IPC_USER_DATA,		NULL,						(VOID*) NULL},//channel 0: IPC_INT_CHAN_SHELL_SWITCH
 	{IPC_USER_DATA,		NULL,						(VOID*) NULL},//channel 1: IPC_INT_CHAN_WIFI_FW
 	{IPC_USER_DATA,		FLASH_Write_IPC_Int,		(VOID*) NULL},//channel 2: IPC_INT_CHAN_FLASHPG_REQ
 	{IPC_USER_POINT,	NULL,						(VOID*) NULL},//channel 3: IPC_INT_KM4_TICKLESS_INDICATION
@@ -65,8 +65,8 @@ extern void driver_fw_flow_ipc_int(VOID *Data, u32 IrqStatus, u32 ChanNum);
 const IPC_INIT_TABLE  ipc_init_config[] =
 {
 	//USER_MSG_TYPE		IRQFUNC								IRQDATA
-	{IPC_USER_DATA,		shell_switch_ipc_int,		(VOID*) NULL},//channel 0: IPC_INT_CHAN_SHELL_SWITCH
-	{IPC_USER_DATA,		fw_flow_ipc_int,				(VOID*) IPCM4_DEV},//channel 1: IPC_INT_CHAN_WIFI_FW
+	{IPC_USER_DATA,		NULL,						(VOID*) NULL},//channel 0: IPC_INT_CHAN_SHELL_SWITCH
+	{IPC_USER_DATA,		fw_flow_ipc_int,			(VOID*) IPCM4_DEV},//channel 1: IPC_INT_CHAN_WIFI_FW
 	{IPC_USER_DATA,		FLASH_Write_IPC_Int,		(VOID*) NULL},//channel 2: IPC_INT_CHAN_FLASHPG_REQ
 	{IPC_USER_DATA,		NULL,						(VOID*) NULL},//channel 3: Reserved for Realtek use
 	{IPC_USER_DATA,		NULL,						(VOID*) NULL},//channel 4: Reserved for Realtek use

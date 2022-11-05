@@ -3,6 +3,7 @@
 cd %~dp0
 del /s /q *.log
 del /s /q *.dep
+del /s /q *.ewt
 del /s /q NULL
 
 cd %~dp0
